@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Insert title here here</title>
 </head>
 <body>
 <jsp:useBean id="beanId" class = "_Model.PersonModel" >
