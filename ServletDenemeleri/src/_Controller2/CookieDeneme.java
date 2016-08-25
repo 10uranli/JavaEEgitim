@@ -22,7 +22,6 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 	resp.addHeader("Set-Cookie", "CookieName2=CookieValue2");
 	
 	
-	
 	Cookie[] cookies = req.getCookies();
 	for(Cookie cookie : cookies){
 		System.out.println("Cookie adý = " + cookie.getName() + "   cookie deðeri = " + cookie.getValue());

@@ -17,7 +17,7 @@ public class Context extends HttpServlet {
 			throws ServletException, IOException {
 		ServletContext context = getServletContext();
 		String value = context.getInitParameter("ContextName");
-		System.out.println("Döngüsüz alýnan = " + value);
+		System.out.println("Döngüsüzz alýnan = " + value);
 		Enumeration<String> contextNames = context.getInitParameterNames();
 		while (contextNames.hasMoreElements()) {
 			String name = (String) contextNames.nextElement();
